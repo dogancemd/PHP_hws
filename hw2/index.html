@@ -1,15 +1,20 @@
 <html>
     <head>
         <title>PhoneBook</title>
+        <link rel="stylesheet" href="phoneBook.css">
     </head>
     <body>
-        <h1>PhoneBook</h1>
-        <button onclick="window.location.href = 'contacts.php'">My Contacts</button>
-        <button onclick="window.location.href = 'add_contact.php'">Add Contact</button><br>
-        <form action="search.php" method="post" accept-charset="utf-8">
-            <input type="text" name="search" placeholder="Search">
-            <button type="submit" >Search</button>
-        </form>
+        <div>
+            <h1 class="horizontalCenter">PhoneBook</h1>
+            <div class=horizontalCenter>
+                <button onclick="window.location.href = 'contacts.php'">My Contacts</button>
+                <button onclick="window.location.href = 'add_contact.php'">Add Contact</button><br>
+            </div>
+            <form action="search.php" method="post" accept-charset="utf-8">
+                <input type="text" name="search" placeholder="Search">
+                <button type="submit" >Search</button>
+            </form>
+        </div>
     </body>
 
 
